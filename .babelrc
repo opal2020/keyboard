@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-react": {
+          "runtime": "automatic",
+          "importSource": "@emotion/react"
+        }
+      },
+      "mobx"
+    ]
+  ],
+  "plugins": [
+    [
+      "@emotion",
+      {
+        "autoLabel": "always",
+        "labelFormat": "[dirname]-[filename]--[local]"
+      }
+    ]
+  ]
+}
