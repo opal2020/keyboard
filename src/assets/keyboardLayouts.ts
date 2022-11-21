@@ -89,4 +89,5 @@ const fc660c: sizeTypes = [
   ],
 ];
 
+// eslint-disable-next-line import/prefer-default-export
 export { fc660c };
